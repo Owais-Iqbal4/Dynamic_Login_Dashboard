@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.logo-font{
+    font-family: 'Satisfy', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+.style-font{
+    font-family: 'Black Ops One', cursive;
+}
+
+@media screen and (max-width:430px) {
+    .main-Login{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .login-separator{
+            border-right-width: 0;
+            border-bottom-width: 1px;
+            width: 70%;
+            height: 20px;
+    }
+    .logo-font-login{
+        font-size: 15vw;
+    }
+    .logo-div{
+        align-items: center;
+        margin-top: 30%;
+    }
+}

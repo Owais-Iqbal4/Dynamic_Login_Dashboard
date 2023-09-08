@@ -1,0 +1,32 @@
+.logo-font{
+    font-family: 'Satisfy', cursive;
+}
+html{
+    font-size: 100%;
+}
+.sidebar-scroll::-webkit-scrollbar{
+    display: none;
+}
+@media screen and (max-width:780px) {
+    .search-desktop{
+        display: none;
+    }
+    .search-icon{
+        display: block;
+    }
+}
+@media screen and (max-width:430px) {
+    html{
+        font-size: 80% !important;
+    }
+    .header-height{
+        height: 52px;
+    }
+    .header-icons{
+        gap: 18px;
+    }
+    /* .avatar{
+        width: 30px !important;
+        height: 30px !important;
+    } */
+}
